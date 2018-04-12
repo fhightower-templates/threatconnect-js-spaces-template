@@ -1,0 +1,12 @@
+{% set requires_runtime_context = (cookiecutter.runtime_context == 'Menu' or cookiecutter.runtime_context == 'Search') -%}
+{
+    "allowOnDemand": true,
+    "displayName": "{{ cookiecutter.application_name }}",
+    "languageVersion": "JS",
+    "params": [],
+    "programIcon": "spaces-icon-import",
+    "programLanguage": "Javascript",
+    "programVersion": "{{ cookiecutter.version }}",
+    "runtimeContext": [{% if requires_runtime_context %}"{{ cookiecutter.runtime_context }}"{% endif %}],
+    "runtimeLevel": "SpaceOrganization"
+}
