@@ -15,4 +15,4 @@ In the ThreatConnect UI install the App (the `.zip` file) created in the [Build 
 
 ## Credits
 
-This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and [Floyd Hightower's Spaces App Template](https://github.com/fhightower/threatconnect-js-spaces-template).
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and [Floyd Hightower's Spaces App Template](https://github.com/fhightower-templates/threatconnect-js-spaces-template).
