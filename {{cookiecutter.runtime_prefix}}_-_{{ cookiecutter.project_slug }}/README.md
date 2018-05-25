@@ -8,7 +8,7 @@
 make pack
 ```
 
-This will package the app as `{{cookiecutter.project_slug}}.zip`.
+This will package the app as `{{cookiecutter.runtime_prefix}}_-_{{ cookiecutter.project_slug }}.zip`.
 
 ## Deploy
 
